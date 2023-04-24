@@ -6,30 +6,30 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.header-image-wrapper {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.header-image-wrapper img {
+.header img {
   width: 100%;
 }
 
-.header-image-wrapper .header-link {
+.header .header-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .header-image-wrapper { 
+  .header {
     text-align: center;
   }
 
 }
 
-.main-wrapper {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -76,8 +76,7 @@ button:hover {
 
 /* Heading */
 
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,7 +105,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-label[for="new-task"] {
+.new-item-title {
   display: block;
   margin: 0 0 20px;
 }
@@ -116,6 +115,7 @@ input#new-task {
 }
 
 /* Task list */
+
 li {
   overflow: hidden;
   padding: 20px 0;
